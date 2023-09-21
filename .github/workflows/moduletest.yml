@@ -1,0 +1,11 @@
+name: ModuleTest
+on: [push , workflow_dispatch]
+jobs:
+  name: job1
+  runs-on: Ububtu-latest
+  steps:
+    - name: step1
+      run: echo "run completed"
+    
+  
+  
