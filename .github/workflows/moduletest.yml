@@ -2,7 +2,7 @@ name: ModuleTest
 on: [push , workflow_dispatch]
 jobs:
   Job1:
-  runs-on: Ububtu-latest
+  runs-on: Ubuntu-latest
   steps:
     - name: step1
       run: echo "run completed"
